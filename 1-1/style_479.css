@@ -1,0 +1,58 @@
+@media screen and (max-width: 479px) {
+    .header {
+        width: 150px;
+        height: 100px;
+        background-color: #141f40;
+    }
+
+    .content {
+        width: 150px;
+        height: 450px;
+    }
+    .content_left {
+        width: 150px;
+        height: 100px;
+        background-color: #80bfa8;
+    }
+    .content_right_left {
+        width: 125px;
+        position: relative;
+        top: 100px;
+    }
+    .content_right{
+        width: 150px;
+        height: 350px;
+    }
+    .content_right_top {
+        width: 200px;
+    }
+    .content_yellow {
+        width: 150px;
+        height: 50px;
+        background-color: #dbd400;
+    }
+    .content_blue {
+        width: 150px;
+        height: 100px;
+        background-color: #0093b7;
+    }
+    .content_beige {
+        width: 150px;
+        height: 100px;
+        background-color: #ff9e6b;
+        position: relative;
+        top: -150px;
+    }
+    .content_brown {
+        width: 150px;
+        height: 100px;
+        background-color: #8c2727;
+        clear: both;
+    }
+
+    .footer {
+        width: 150px;
+        height: 100px;
+        background-color: #d98d30;
+    }
+}
