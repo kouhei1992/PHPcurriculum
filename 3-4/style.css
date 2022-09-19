@@ -1,0 +1,38 @@
+/* 背景色設定 */
+*{
+    background-color: #808080;
+}
+
+body {
+    text-align: center; 
+    width: 100%;
+}
+
+h1 {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+h2 {
+    color: #ffffff;
+}
+p {
+    color: #ffffff;
+}
+
+.my_name {
+    background-color: #ffffff;
+    border: none;
+}
+.button {
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.entry_name {
+    color: #ffffff;
+}
+
+.radio {
+    color: #ffffff;
+}
