@@ -1,0 +1,218 @@
+/* //////////////////////////////////////////////
+//                                             //
+//                     共通                    //
+//                                             //
+///////////////////////////////////////////////*/
+
+h1 {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+h2 {
+    margin-bottom: 0;
+}
+form {
+    width: 350px;
+    margin: 0 auto;
+}
+input[type="text"],
+input[type="password"] {
+    width: 350px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+input[type="number"] {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+input[type="submit"] {
+    width: 175px;
+    height: 40px;
+    background-color: #2d7bff;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    opacity: 70%;
+}
+.err {
+    display: inline-block;
+    color: red;
+}
+a{
+    display: inline-block;
+    width: 100%;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a:hover {
+    opacity: 70%;
+}
+
+/* //////////////////////////////////////////////
+//                                             //
+//                 ログイン画面                 //
+//                                             //
+///////////////////////////////////////////////*/
+.login_title {
+    width: 350px;
+    margin: 0 auto;
+    position: relative;
+}
+.login_title h1 {
+    width: 200px;
+    height: 30px;
+    margin: 30px 0 20px 0;
+}
+.regist {
+    width: 150px;
+    height: 35px;
+    margin: 0 auto;
+    background-color: #34a2b8;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    right: 0px;
+    top: 10%;
+}
+
+/* //////////////////////////////////////////////
+//                                             //
+//                  メイン画面                  //
+//                                             //
+///////////////////////////////////////////////*/
+.main {
+    width: 600px;
+    margin: 0 auto;
+}
+.main_title {
+    width: 600px;
+}
+.main a {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.books_regist {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #2d7bff;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+}
+.main_table {
+    width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.main_table th {
+    background-color: #e5e9ee;
+    height: 40px;
+    border: 1px solid #ffffff;
+}
+.main_table td {
+    border: 1px solid #e5e9ee;
+    text-align: center;
+    height: 50px;
+}
+.delete {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.delete a {
+    background-color: #dc3340;
+    width: 70px;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+.main_button {
+    display: flex;
+}
+.logout {
+    background-color: #6b747a;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 40px;
+    margin-left: 5px;
+}
+
+/* comp */
+.comp_title {
+    width: 400px;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px auto;
+}
+.comp_button {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.comp_button p {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.button_re {
+    background-color: #34a2b8;
+}
+.button_next {
+    background-color: #2d7bff;
+}
+.comp_button a {
+    display: inline-block;
+    width: 100%;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+
+/* //////////////////////////////////////////////
+//                                             //
+//                ログアウト画面                //
+//                                             //
+///////////////////////////////////////////////*/
+.logout_title {
+    text-align: center;
+}
+.logout_mes {
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+.logout_a {
+    width: 175px;
+    height: 40px;
+    background-color: #2d7bff;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    margin: 10px auto;
+}
